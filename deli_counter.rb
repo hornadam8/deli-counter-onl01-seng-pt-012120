@@ -16,3 +16,12 @@ def take_a_number(array,name)
   sentence = "Welcome, #{name}. You are number #{i+1} in line."
   puts sentence
 end
+
+def now_serving(array)
+  if array.length == 0
+    puts "There is nobody waiting to be served!"
+  else
+    puts array.first
+    array[0].delete
+  end
+end
