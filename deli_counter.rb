@@ -21,7 +21,8 @@ def now_serving(array)
   if array.length == 0
     puts "There is nobody waiting to be served!"
   else
-    puts array.first
+    sentence = "Currently serving "
+    sentence += "#{array.first}."
     array[0].delete
   end
 end
