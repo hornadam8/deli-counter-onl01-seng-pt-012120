@@ -12,8 +12,7 @@ end
 
 def take_a_number(array,name)
   array << name
-  x = name
-  i = array.index(x)
+  i = array.index(name)
   sentence = "Welcome, #{name}. You are number #{i+1} in line."
   puts sentence
 end
