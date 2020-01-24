@@ -24,5 +24,6 @@ def now_serving(array)
     sentence = "Currently serving "
     sentence += "#{array.first}."
     array[0].delete
+    puts sentence
   end
 end
